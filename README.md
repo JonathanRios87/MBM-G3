@@ -5,6 +5,7 @@ Integrantes
 * Castro Vanessa
 * Guerra Diego
 * Pinduisaca Máximo
+* Rios Jonathan  
 * Sarango Jhandry
 * ## Objetivo
 * ## Dataset
