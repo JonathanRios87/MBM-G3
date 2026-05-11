@@ -1,6 +1,6 @@
 # MBM-3
 Omicas 2026
-Proyecto:  
+Proyecto:  Anotación del genoma de Klebsiella pneumoniae usando Artemis para su posterior visualizacion y edicion en JBrowse  
 Integrantes  
 * Castro Vanessa
 * Guerra Diego
