@@ -8,6 +8,7 @@ Integrantes
 * Rios Jonathan  
 * Sarango Jhandry
 * ## Objetivo
+* Realizar la anotación estructural básica del genoma de Klebsiella pneumoniae mediante Prokka, y posteriormente visualizar y editar las anotaciones en JBrowse, con el fin de establecer un flujo bioinformático reproducible para proyectos académicos y de investigación aplicada.  
 * ## Dataset
 * ## Flujo de trabajo
 * ## Resultados
