@@ -16,7 +16,25 @@ Integrantes
   * Coversión y verificación de formatos
   * Instalar y configurar JBrowse
   * Visualiazión y edición del genoma en JBrowse
-  * Conclusiones sobre la utilidad y aplicabilidad como flujo bioinformatico reproducible  
+  * Conclusiones sobre la utilidad y aplicabilidad como flujo bioinformatico reproducible
+ ### Workflow y organización
+
+* Como parte del equipo, se desarrolló y organizó el flujo de trabajo bioinformático del proyecto, asegurando la correcta secuencia de análisis.
+
+* El workflow detallado es:
+
+* NCBI → FASTA → Galaxy → Prokka → Resultados → Interpretación
+
+Descripción del proceso:
+
+- NCBI: obtención de la secuencia genómica de Klebsiella pneumoniae.
+- FASTA: formato de archivo utilizado como entrada del análisis.
+- Galaxy: plataforma bioinformática para el procesamiento de datos.
+- Prokka: herramienta de anotación estructural del genoma bacteriano.
+- Resultados: generación de archivos con genes y anotaciones.
+- Interpretación: análisis biológico de los resultados obtenidos.
+
+Se incluyen evidencias visuales del proceso en la carpeta images/ del repositorio.
 * ## Resultados
 * ## Contribucion individual
 * Resumen breve  
