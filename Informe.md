@@ -16,6 +16,6 @@ En este proyecto se propone realizar la anotación estructural básica del genom
 **2. Metodologia (Workflow)**
    
 **3. Resultados**  
-**4. Discusion** 
+**4. Discusion**  
 **5. Conclusiones**  
 **6. Referencias bibliograficas**  
