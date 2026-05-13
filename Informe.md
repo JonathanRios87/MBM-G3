@@ -1,4 +1,4 @@
-PROYECTO :   
+PROYECTO :  Anotación estructural basica del genoma de Klebsiella pneumoniae usando Galaxy y Prokka para su posterior visualizacion y edicion en JBrowse  
 Integrantes:  
 * Maximo Pinduisaca  
 * Jhandry Sarango  
