@@ -5,7 +5,9 @@ Integrantes:
 * Vanessa Castro  
 * Diego Guerra  
 * Jonathan Rios
-**Objetivo**   Realizar la anotación estructural básica del genoma de Klebsiella pneumoniae mediante Galaxy y Prokka, y posteriormente visualizar y editar las anotaciones en JBrowse, con el fin de establecer un flujo bioinformático reproducible para proyectos académicos y de investigación aplicada.   
+  
+**Objetivo**   
+Realizar la anotación estructural básica del genoma de Klebsiella pneumoniae mediante Galaxy y Prokka, y posteriormente visualizar y editar las anotaciones en JBrowse, con el fin de establecer un flujo bioinformático reproducible para proyectos académicos y de investigación aplicada.   
 **1. Introducción**  
 La anotación de genomas bacterianos constituye una herramienta esencial en bioinformática, ya que permite identificar y organizar los elementos estructurales básicos de la secuencia genética, como genes codificantes, regiones reguladoras y ARN funcionales. *Klebsiella pneumoniae*, un patógeno oportunista de gran relevancia clínica por su capacidad de desarrollar resistencia a múltiples antibióticos, representa un modelo idóneo para aplicar metodologías de anotación estructural.
 
