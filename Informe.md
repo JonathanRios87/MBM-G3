@@ -81,7 +81,43 @@ Esto permitió:
 * Visualizar genes anotados
 * Analizar regiones funcionales de forma gráfica
 
-**Resultados finales**
+
+Todas las evidencias del proceso (capturas de pantalla, resultados intermedios y visualizaciones) se encuentran organizadas en la carpeta `images/` del repositorio del proyecto.
+   
+**3. Resultados**  
+
+**Resultados finales**  
+
+* Dentro de los resultados obtenidos tenemos que se realizaron controles de calidad por medio del programa Galaxy de la data cruda obtendida en NCBI
+* Al analizar los resultados del control se observo que existen ciertas particularidades entre las que destacan:  
+
+1 Buena calidad general de las lecturas (sin secuencias marcadas como de baja calidad).
+2 Variación inicial en el contenido de bases (A, T, G, C) durante los primeros 10–15 pb, típica de la fase de arranque del secuenciador.
+3 Ligera desviación en el contenido GC, pero dentro del rango esperado para E. coli.
+4 Presencia mínima de adaptadores, corregible con Trimmomatic.
+
+Lecturas filtradas (Trimmomatic + FastQC post-trimming)
+Mejora notable en la calidad promedio por base.
+
+Gráfico “Per base sequence quality”:
+
+La mayoría de las posiciones se encuentran en la zona verde (Q > 30), indicando alta precisión en las llamadas de bases.  
+
+Distribución de contenido GC
+Promedio: ~50% GC.  
+
+Curva de distribución: Simétrica y centrada, lo que indica homogeneidad en el contenido GC y ausencia de contaminación o sesgo de secuenciación.  
+Anotación y visualización (Prokka + JBrowse)
+Herramientas: Prokka (anotación automática) y JBrowse (visualización).
+
+Resultados visibles:
+
+Genes anotados como proteínas hipotéticas, transportadores de membrana (YdiM), enzimas metabólicas como quinate/shikimate deshidrogenasa y 3-dehidroquinato deshidratasa.
+
+Organización genómica coherente y sin interrupciones evidentes.
+
+Eliminación efectiva de adaptadores y regiones de baja calidad.
+
 Como resultado del flujo de trabajo se obtuvo:
 * Un genoma ensamblado de *Escherichia coli*
 * Anotaciones funcionales de genes
@@ -90,9 +126,19 @@ Como resultado del flujo de trabajo se obtuvo:
 
 Estos resultados permiten un análisis preliminar de la estructura genética del organismo.
 
-Todas las evidencias del proceso (capturas de pantalla, resultados intermedios y visualizaciones) se encuentran organizadas en la carpeta `images/` del repositorio del proyecto.
-   
-**3. Resultados**  
 **4. Discusion**  
+
+* Las lecturas son de alta calidad y adecuadas para análisis posteriores. La variación inicial en el contenido de bases no afecta significativamente la integridad del dataset.  
+* El proceso de trimming optimizó la calidad de las lecturas, garantizando datos confiables para la anotación genómica.  
+* El perfil GC es consistente con el genoma de Escherichia coli, confirmando la pureza del dataset.  
+* La anotación revela genes implicados en transporte y metabolismo, funciones esenciales para la supervivencia y adaptación de E. coli. La presencia de proteínas hipotéticas sugiere regiones aún no caracterizadas, potencialmente relevantes para estudios evolutivos.  
+
 **5. Conclusiones**  
+
+El flujo de trabajo (FastQC → Trimmomatic → Prokka → JBrowse) permitió obtener un conjunto de secuencias de alta calidad y una anotación estructural confiable del genoma de E. coli REL606.  
+Los resultados son biológicamente interpretables porque confirman:
+* La integridad genética del organismo.
+* La presencia de genes funcionales clave.
+* La idoneidad del dataset para estudios evolutivos y comparativos.
+* 
 **6. Referencias bibliograficas**  
