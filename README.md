@@ -11,6 +11,12 @@ Integrantes
 ## OBJETIVO
 * Realizar la anotación estructural básica del genoma de Escherichia coli mediante Galaxy y Prokka, y posteriormente visualizar y editar las anotaciones en JBrowse, con el fin de establecer un flujo bioinformático reproducible para proyectos académicos y de investigación aplicada.
 
+## Problema biológico
+* El proyecto busca realizar la anotación estructural del genoma de *Escherichia coli* para identificar genes, regiones codificantes y elementos funcionales relevantes.
+
+## Hipótesis
+* Es posible identificar y anotar correctamente los genes funcionales del genoma de *E. coli* utilizando herramientas bioinformáticas como Galaxy y Prokka.
+
 ## Metodología
 
 ## Flujo de trabajo y organización
