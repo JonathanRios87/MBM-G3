@@ -14,7 +14,8 @@ Omicas 2026
 ## Objetivo
 * Realizar la anotación estructural básica del genoma de E. coli mediante Prokka, y posteriormente visualizar y editar las anotaciones en JBrowse, con el fin de establecer un flujo bioinformático reproducible para proyectos académicos y de investigación aplicada.  
 ## Dataset
-* Escherichia Coli es un organismo modelo por excelencia en la biologia molecular, su rapido crecimiento y genoma bien definida permitieron descubrir como funciona el codigo genetico y la replicacion del ADN. En ingenieria genetica se utiliza para la produccion de medicamentos, compuestos quimicos y biocombustibles, mediante la modificacio de sus vias metabolicas, actua como celula huesped para la sintesis de proteinas complejas mediante la insercion de plasmidos. Se genoma flexible permite la incorporcion de transposones, fagos y plasmidos facilitando su clonacion y secuenciacion 
+* Escherichia Coli es un organismo modelo por excelencia en la biologia molecular, su rapido crecimiento y genoma bien definida permitieron descubrir como funciona el codigo genetico y la replicacion del ADN. En ingenieria genetica se utiliza para la produccion de medicamentos, compuestos quimicos y biocombustibles, mediante la modificacio de sus vias metabolicas, actua como celula huesped para la sintesis de proteinas complejas mediante la insercion de plasmidos. Se genoma flexible permite la incorporcion de transposones, fagos y plasmidos facilitando su clonacion y secuenciacion
+* 
 ## Flujo de trabajo
 
 <p align="center">
