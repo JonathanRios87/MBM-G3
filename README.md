@@ -13,8 +13,10 @@ Integrantes
 * Escherichia Coli es un organismo modelo por excelencia en la biologia molecular, su rapido crecimiento y genoma bien definida permitieron descubrir como funciona el codigo genetico y la replicacion del ADN. En ingenieria genetica se utiliza para la produccion de medicamentos, compuestos quimicos y biocombustibles, mediante la modificacio de sus vias metabolicas, actua como celula huesped para la sintesis de proteinas complejas mediante la insercion de plasmidos. Se genoma flexible permite la incorporcion de transposones, fagos y plasmidos facilitando su clonacion y secuenciacion 
 * ## Flujo de trabajo
 * * Descarga del genoma E. coli desde NCBI GenBank o ENA.
+  * Control Calidad Datos
+  * Trimming
+  * Ensamblaje
   * Anotacion estructural con Prokka
-  * Coversión y verificación de formatos
   * Instalar y configurar JBrowse
   * Visualiazión y edición del genoma en JBrowse
   * Conclusiones sobre la utilidad y aplicabilidad como flujo bioinformatico reproducible  
