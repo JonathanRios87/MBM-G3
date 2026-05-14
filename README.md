@@ -20,6 +20,13 @@ IDENTIFICACION DE SECUENCIA FATSQ E. Coli
 La secuencia se obtuvo de la base de datos NCBI  
 https://trace.ncbi.nlm.nih.gov/Traces/?run=SRR2584863  
 
+<img width="1366" height="768" alt="imagen" src="https://github.com/user-attachments/assets/c46625bc-9acf-4c04-9575-01f37664a183" />
+<img width="1366" height="768" alt="imagen" src="https://github.com/user-attachments/assets/1db1370c-8fdf-44e9-8953-1e30be0747d8" />
+<img width="1366" height="768" alt="imagen" src="https://github.com/user-attachments/assets/dfa634a8-8904-4fd2-a6ff-aca7243dfd66" />
+
+
+
+
 ## Flujo de trabajo
 
 <p align="center">
