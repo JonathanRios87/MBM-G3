@@ -13,62 +13,28 @@ Integrantes
 
 ## Metodología
 
-* Descarga de la secuencia genómica desde NCBI.
-*	Almacenamiento del archivo FASTA.
-*	Análisis mediante comandos Linux.
-*	Conteo de nucleótidos.
-*	Búsqueda de patrones biológicos.
-*	Automatización mediante scripts bash.
-*	Documentación en GitHub.
-  
-## Dataset utilizado
+## Flujo de trabajo y organización
 
-* Fuente: NCBI
-* Accession: MT781409.1
-* Enlace: https://www.ncbi.nlm.nih.gov/nuccore/MT781409.1
-* Formato: FASTA
+Como parte del equipo, se desarrolló y organizó el flujo de trabajo bioinformático del proyecto, asegurando una secuencia adecuada de análisis y la correcta organización de archivos dentro del repositorio GitHub.
 
-## FLUJO DE TRABAJO
-  * Descarga del genoma completo de E. coli desde NCBI GenBank o ENA.
-  * Anotacion estructural con Prokka
-  * Coversión y verificación de formatos
-  * Instalar y configurar JBrowse
-  * Visualiazión y edición del genoma en JBrowse
-  * Conclusiones sobre la utilidad y aplicabilidad como flujo bioinformatico reproducible
+### Flujo de trabajo bioinformático
 
-## GALAXY VS LINEA DE COMANDOS
+El flujo de trabajo implementado fue el siguiente:
 
-| Característica        | Galaxy    | Línea de comandos |
-| --------------------- | --------- | ----------------- |
-| Facilidad de uso      | Alta      | Media             |
-| Requiere programación | No        | Sí                |
-| Automatización        | Limitada  | Alta              |
-| Flexibilidad          | Media     | Muy alta          |
-| Reproducibilidad      | Alta      | Muy alta          |
-| Uso en bioinformática | Académico | Profesional       |
+NCBI-SRA → FASTQ → FastQC → Trimmomatic → FastQC → SPAdes → Prokka → JBrowse → Resultados
 
-  ### Workflow y organización
+### Descripción del proceso
 
-Como parte del equipo, se desarrolló y organizó el flujo de trabajo bioinformático del proyecto, asegurando la correcta secuencia de análisis.
+- **NCBI-SRA:** obtención de lecturas genómicas de *Escherichia coli* desde la base de datos pública NCBI.
+- **FASTQ:** archivos de secuencias utilizados como entrada para el análisis bioinformático.
+- **FastQC:** evaluación de la calidad de las lecturas antes y después del filtrado.
+- **Trimmomatic:** eliminación de regiones de baja calidad y aplicación de HEADCROP:20.
+- **SPAdes:** ensamblaje del genoma bacteriano a partir de lecturas paired-end.
+- **Prokka:** anotación estructural del genoma bacteriano.
+- **JBrowse:** visualización e interpretación gráfica de las anotaciones genómicas.
+- **Resultados:** generación de archivos anotados y análisis preliminar del genoma ensamblado.
 
-  ### Workflow bioinformático
 
-![Workflow parte 1](images/workflow1.png)
-
-![Workflow parte 2](images/workflow2.png)
-
-El workflow detallado es:
-
-* NCBI → FASTA → Galaxy → Prokka → Resultados → Interpretación
-
-Descripción del proceso:
-
-  * NCBI: obtención de la secuencia genómica de Escherichia coli.
-  * FASTA: formato de archivo utilizado como entrada del análisis.
-  * Galaxy: plataforma bioinformática para el procesamiento de datos.
-  * Prokka: herramienta de anotación estructural del genoma bacteriano.
-  * Resultados: generación de archivos con genes y anotaciones.
-  * Interpretación: análisis biológico de los resultados obtenidos.
 
 Se incluyen evidencias visuales del proceso en la carpeta images/ del repositorio.
 ## RESULTADOS
