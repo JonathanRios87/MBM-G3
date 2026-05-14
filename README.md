@@ -25,6 +25,7 @@ Omicas 2026
   * Visualiazión y edición del genoma en JBrowse
   * Conclusiones sobre la utilidad y aplicabilidad como flujo bioinformatico reproducible  
 * ## Resultados
+Obtencion de imagenes en Jbrowse (Carpeta images)
 * ## Contribucion individual
 * Resumen breve  
 ## SCRIPTS  
