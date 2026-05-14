@@ -84,7 +84,7 @@ Como resultado del flujo de trabajo se obtuvo:
 
 Estos resultados permiten un análisis preliminar de la estructura genética del organismo.
 
-📌 Todas las evidencias del proceso (capturas de pantalla, resultados intermedios y visualizaciones) se encuentran organizadas en la carpeta `images/` del repositorio del proyecto.
+Todas las evidencias del proceso (capturas de pantalla, resultados intermedios y visualizaciones) se encuentran organizadas en la carpeta `images/` del repositorio del proyecto.
    
 **3. Resultados**  
 **4. Discusion**  
