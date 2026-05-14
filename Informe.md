@@ -1,4 +1,4 @@
-PROYECTO : ** Anotación estructural básica del genoma de *Escherichia coli* utilizando Galaxy y Prokka para su posterior visualización en JBrowse **  
+PROYECTO : ** Anotación estructural y ensamblaje del genoma de *Escherichia coli* utilizando Galaxy y Prokka para su posterior visualización en JBrowse **  
 Integrantes:  
 * Maximo Pinduisaca  
 * Jhandry Sarango  
