@@ -1,6 +1,6 @@
 # MBM-3
 Omicas 2026
-Proyecto:  Anotación estructural basica del genoma de Klebsiella pneumoniae usando Galaxy y Prokka para su posterior visualizacion y edicion en JBrowse  
+Proyecto:  Anotación estructural basica del genoma de E. coli usando Galaxy y Prokka para su posterior visualizacion y edicion en JBrowse  
 Integrantes  
 * Castro Vanessa
 * Guerra Diego
@@ -9,7 +9,7 @@ Integrantes
 * Sarango Jhandry
   
 ## OBJETIVO
-* Realizar la anotación estructural básica del genoma de Klebsiella pneumoniae mediante Galaxy y Prokka, y posteriormente visualizar y editar las anotaciones en JBrowse, con el fin de establecer un flujo bioinformático reproducible para proyectos académicos y de investigación aplicada.
+* Realizar la anotación estructural básica del genoma de Escherichia coli mediante Galaxy y Prokka, y posteriormente visualizar y editar las anotaciones en JBrowse, con el fin de establecer un flujo bioinformático reproducible para proyectos académicos y de investigación aplicada.
 
 ## Metodología
 
@@ -29,7 +29,7 @@ Integrantes
 * Formato: FASTA
 
 ## FLUJO DE TRABAJO
-  * Descarga del genoma completo de K. pneumoniae desde NCBI GenBank o ENA.
+  * Descarga del genoma completo de E. coli desde NCBI GenBank o ENA.
   * Anotacion estructural con Prokka
   * Coversión y verificación de formatos
   * Instalar y configurar JBrowse
@@ -63,7 +63,7 @@ El workflow detallado es:
 
 Descripción del proceso:
 
-  * NCBI: obtención de la secuencia genómica de Klebsiella pneumoniae.
+  * NCBI: obtención de la secuencia genómica de Escherichia coli.
   * FASTA: formato de archivo utilizado como entrada del análisis.
   * Galaxy: plataforma bioinformática para el procesamiento de datos.
   * Prokka: herramienta de anotación estructural del genoma bacteriano.
