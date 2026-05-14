@@ -51,7 +51,7 @@ Este análisis permitió identificar:
 Se utilizó Trimmomatic para mejorar la calidad de los datos eliminando:
 * Bases de baja calidad en los extremos
 * Secuencias no confiables
-Se aplicó el parámetro **HEADCROP:20**, eliminando los primeros 20 nucleótidos de cada lectura para reducir posibles errores sistemáticos.
+Se aplicó el parámetro HEADCROP:20, eliminando los primeros 20 nucleótidos de cada lectura para reducir posibles errores sistemáticos.
 
 **FastQC (control posterior)**
 Después del filtrado, se realizó nuevamente FastQC para verificar la mejora en la calidad de las lecturas.
