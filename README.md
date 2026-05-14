@@ -10,8 +10,26 @@ Integrantes
   
 ## OBJETIVO
 * Realizar la anotación estructural básica del genoma de Klebsiella pneumoniae mediante Galaxy y Prokka, y posteriormente visualizar y editar las anotaciones en JBrowse, con el fin de establecer un flujo bioinformático reproducible para proyectos académicos y de investigación aplicada.
+
+## Metodología
+
+* Descarga de la secuencia genómica desde NCBI.
+*	Almacenamiento del archivo FASTA.
+*	Análisis mediante comandos Linux.
+*	Conteo de nucleótidos.
+*	Búsqueda de patrones biológicos.
+*	Automatización mediante scripts bash.
+*	Documentación en GitHub.
   
-## DATASET
+## Dataset utilizado
+
+Fuente: NCBI
+
+Accession: MT781409.1
+
+Enlace: https://www.ncbi.nlm.nih.gov/nuccore/MT781409.1
+
+Formato: FASTA
 
 ## FLUJO DE TRABAJO
   * Descarga del genoma completo de K. pneumoniae desde NCBI GenBank o ENA.
