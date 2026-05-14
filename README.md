@@ -7,6 +7,10 @@ Omicas 2026
 * Pinduisaca Máximo
 * Rios Jonathan  
 * Sarango Jhandry
+
+## Planteamiento del problema
+* El ensamblaje y la anotación estructural de genomas bacterianos constituyen procesos fundamentales en la genómica funcional y bioinformática, debido a su importancia en la identificación de genes, regiones codificantes y elementos regulatorios. Sin embargo, la integración de herramientas como Galaxy, Prokka y JBrowse presenta limitaciones relacionadas con la reproducibilidad, compatibilidad de formatos y correcta interpretación de datos genómicos. En el caso de Escherichia coli, una anotación deficiente puede afectar la identificación precisa de genes y la visualización estructural del genoma. Por ello, se plantea implementar un flujo de trabajo bioinformático para el ensamblaje, anotación estructural y posterior visualización genómica, optimizando la organización, análisis y edición de la información genética bacteriana.
+
 ## Objetivo
 * Realizar la anotación estructural básica del genoma de E. coli mediante Prokka, y posteriormente visualizar y editar las anotaciones en JBrowse, con el fin de establecer un flujo bioinformático reproducible para proyectos académicos y de investigación aplicada.  
 ## Dataset
