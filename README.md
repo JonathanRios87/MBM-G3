@@ -25,6 +25,12 @@ Integrantes
 
 Como parte del equipo, se desarrolló y organizó el flujo de trabajo bioinformático del proyecto, asegurando la correcta secuencia de análisis.
 
+  ### Workflow bioinformático
+
+![Workflow parte 1](images/workflow1.png)
+
+![Workflow parte 2](images/workflow2.png)
+
 El workflow detallado es:
 
 * NCBI → FASTA → Galaxy → Prokka → Resultados → Interpretación
