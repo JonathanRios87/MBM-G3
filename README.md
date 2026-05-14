@@ -34,4 +34,4 @@ Omicas 2026
 
 Una vez ensamblado el genoma, se aplicó Prokka para identificar genes, regiones codificantes, ARN ribosomal y otros elementos genéticos presentes en el organismo. Los archivos generados en formatos FASTA y GFF fueron posteriormente integrados en JBrowse para la visualización y edición de la estructura genómica de *E. coli*. Este flujo de trabajo permitió desarrollar un análisis reproducible y organizado, fortaleciendo competencias en genómica, anotación estructural y manejo de herramientas bioinformáticas aplicadas al análisis molecular bacteriano.
 ## SCRIPTS  
-*  <img width="1266" height="591" alt="image" src="https://github.com/user-attachments/assets/a4b026bf-e349-41b0-9382-a34236d3078c" />
+<img width="1266" height="591" alt="image" src="https://github.com/user-attachments/assets/a4b026bf-e349-41b0-9382-a34236d3078c" />
