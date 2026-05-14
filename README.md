@@ -24,12 +24,12 @@ Omicas 2026
   * Instalar y configurar JBrowse
   * Visualiazión y edición del genoma en JBrowse
   * Conclusiones sobre la utilidad y aplicabilidad como flujo bioinformatico reproducible  
-* ## Resultados
+## Resultados
 * <img width="1365" height="629" alt="Captura de pantalla 2026-05-14 100856" src="https://github.com/user-attachments/assets/4540a942-f7d4-48c9-91b7-8fac78dc533c" />
 * <img width="1060" height="582" alt="Captura de pantalla 2026-05-14 102002" src="https://github.com/user-attachments/assets/dc29a882-ecc1-4bc4-b08c-0ea2dbc84fa3" />
 * <img width="1261" height="628" alt="Captura de pantalla 2026-05-14 102013" src="https://github.com/user-attachments/assets/911b5ba4-465a-4c50-ba97-d6347491692d" />
 
-* ## Contribucion individual
+## Contribucion individual
 * Este proyecto se enfocó en el ensamblaje y la anotación estructural del genoma de *Escherichia coli* mediante el uso de herramientas bioinformáticas especializadas como Galaxy, Prokka y JBrowse. Inicialmente, se obtuvieron secuencias genómicas desde bases de datos públicas y se realizó un control de calidad para garantizar la integridad de las lecturas. Posteriormente, se ejecutó el ensamblaje del genoma en Galaxy, permitiendo reconstruir la secuencia genómica bacteriana a partir de fragmentos de ADN.
 
 * Una vez ensamblado el genoma, se aplicó Prokka para identificar genes, regiones codificantes, ARN ribosomal y otros elementos genéticos presentes en el organismo. Los archivos generados en formatos FASTA y GFF fueron posteriormente integrados en JBrowse para la visualización y edición de la estructura genómica de *E. coli*. Este flujo de trabajo permitió desarrollar un análisis reproducible y organizado, fortaleciendo competencias en genómica, anotación estructural y manejo de herramientas bioinformáticas aplicadas al análisis molecular bacteriano.
