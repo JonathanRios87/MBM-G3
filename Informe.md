@@ -9,10 +9,16 @@ Integrantes:
 **Objetivo**   
 Realizar el ensamblaje y la anotación estructural del genoma de *Escherichia coli* utilizando datos provenientes de NCBI-SRA, mediante herramientas bioinformáticas como FastQC, Trimmomatic, SPAdes, Prokka y JBrowse, para obtener un genoma anotado e interpretable biológicamente. 
 
-**1. Introducción**  
-La anotación de genomas bacterianos constituye una herramienta esencial en bioinformática, ya que permite identificar y organizar los elementos estructurales básicos de la secuencia genética, como genes codificantes, regiones reguladoras y ARN funcionales. *Klebsiella pneumoniae*, un patógeno oportunista de gran relevancia clínica por su capacidad de desarrollar resistencia a múltiples antibióticos, representa un modelo idóneo para aplicar metodologías de anotación estructural.
+## Problema biológico
+* El proyecto busca realizar la anotación estructural del genoma de *Escherichia coli* para identificar genes, regiones codificantes y elementos funcionales relevantes.
 
-En este proyecto se propone realizar la anotación estructural básica del genoma de K. pneumoniae utilizando el entorno bioinformático Galaxy, herramienta que facilita la ejecución reproducible de scripts genómicos, junto con Prokka, un anotador automático especializado en bacterias. Posteriormente, las anotaciones serán visualizadas y editadas en JBrowse, un navegador genómico interactivo que permite explorar de manera dinámica los resultados. Este flujo de trabajo busca establecer un pipeline bioinformático reproducible, útil tanto en el ámbito académico como en investigaciones aplicadas, contribuyendo a la formación en análisis genómico y al estudio de la diversidad genética bacteriana.
+**1. Introducción**  
+
+La anotación de genomas bacterianos constituye una herramienta esencial en bioinformática, ya que permite identificar y organizar los elementos estructurales básicos de la secuencia genética, como genes codificantes, regiones reguladoras y ARN funcionales. *Escherichia coli*, una bacteria modelo ampliamente utilizada en estudios de microbiología y genética molecular, representa un organismo ideal para aplicar metodologías de ensamblaje y anotación genómica debido a la gran cantidad de información disponible en bases de datos públicas.
+
+En este proyecto se propone realizar el ensamblaje y la anotación estructural del genoma de *E. coli* utilizando datos obtenidos desde NCBI-SRA, mediante el entorno bioinformático Galaxy, el cual facilita la ejecución de flujos de trabajo reproducibles para análisis genómicos. Asimismo, se emplea SPAdes para el ensamblaje del genoma y Prokka para la anotación automática de genes bacterianos.
+
+Posteriormente, las anotaciones obtenidas serán visualizadas en JBrowse, un navegador genómico interactivo que permite explorar de manera dinámica la organización del genoma y sus elementos funcionales. Este flujo de trabajo busca establecer un pipeline bioinformático reproducible, útil tanto en el ámbito académico como en investigaciones aplicadas, fortaleciendo la formación en análisis genómico y la interpretación de datos biológicos.
 
 **2. Metodologia (Workflow)**  
 
