@@ -8,13 +8,13 @@ processed/
     ├── 01_fastqc_raw/
     │   ├── SRR2584863_fastqc.html
     │
-    ├── 02_trimming/
+    ├── 02_trimming/TRIMMOMATIC
     │   ├── SRR2584863_trimmed.fastq
     │ 
     ├── 03_fastqc_trimmed/
     │   ├── SRR2584863_trimmed_fastqc.html
     │
-    ├── 04_spades_assembly/
+    ├── 04_SPAdes_assembly/
     │   ├── contigs.fasta
     │   ├── scaffolds.fasta
     │
