@@ -140,5 +140,5 @@ Los resultados son biológicamente interpretables porque confirman:
 * La integridad genética del organismo.
 * La presencia de genes funcionales clave.
 * La idoneidad del dataset para estudios evolutivos y comparativos.
-* 
+  
 **6. Referencias bibliograficas**  
