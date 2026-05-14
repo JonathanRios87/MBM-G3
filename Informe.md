@@ -20,12 +20,12 @@ El workflow detallado es:
 NCBI → FASTA → Galaxy → Prokka → Resultados → Interpretación
 Descripción del proceso:
 
-NCBI: obtención de la secuencia genómica de Klebsiella pneumoniae.
-FASTA: formato de archivo utilizado como entrada del análisis.
-Galaxy: plataforma bioinformática para el procesamiento de datos.
-Prokka: herramienta de anotación estructural del genoma bacteriano.
-Resultados: generación de archivos con genes y anotaciones.
-Interpretación: análisis biológico de los resultados obtenidos
+NCBI: obtención de la secuencia genómica de Klebsiella pneumoniae.  
+FASTA: formato de archivo utilizado como entrada del análisis.  
+Galaxy: plataforma bioinformática para el procesamiento de datos.  
+Prokka: herramienta de anotación estructural del genoma bacteriano.  
+Resultados: generación de archivos con genes y anotaciones.  
+Interpretación: análisis biológico de los resultados obtenidos.  
    
 **3. Resultados**  
 **4. Discusion**  
