@@ -1,1 +1,36 @@
+raw 
+NCBI -> SRR2584863	
+Organismo: E. coli
+https://www.ncbi.nlm.nih.gov/sra/?term=SRR2584863
+Illumina HiSeq 2500
 
+Data/
+└── processed/
+    ├── 01_fastqc_raw/
+    │   ├── SRR2584863_fastqc.html
+    │
+    ├── 02_trimming/
+    │   ├── SRR2584863_trimmed.fastq
+    │ 
+    ├── 03_fastqc_trimmed/
+    │   ├── SRR2584863_trimmed_fastqc.html
+    │
+    ├── 04_spades_assembly/
+    │   ├── contigs.fasta
+    │   ├── scaffolds.fasta
+    │
+    ├── 05_prokka_annotation/
+    │   ├── prokka_annotation.gff
+    │   ├── prokka_annotation.gbk
+    │   ├── prokka_genome.fna
+    │   ├── prokka_proteins.faa
+    │   ├── prokka_genes.ffn
+    │   ├── prokka_summary.txt
+    │   ├── prokka_table.tsv
+    │   ├── prokka_errors.err
+    │   └── prokka_log.log
+    │
+    └── 06_jbrowse_visualization/
+        ├── reference_genome.fna
+        ├── annotation_track.gff
+        └── README.md
