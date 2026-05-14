@@ -1,6 +1,6 @@
 # MBM-3
 Omicas 2026
-Proyecto:  Anotación estructural basica del genoma de Klebsiella pneumoniae usando Prokka para su posterior visualizacion y edicion en JBrowse  
+Proyecto:  Anotación estructural basica del genoma de E. coli usando Galaxy y Prokka para su posterior visualizacion y edicion en JBrowse  
 Integrantes  
 * Castro Vanessa
 * Guerra Diego
@@ -21,4 +21,4 @@ Integrantes
 * ## Resultados
 * ## Contribucion individual
 * Resumen breve  
-* ## Scripts  
+## SCRIPTS  
