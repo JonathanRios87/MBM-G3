@@ -25,7 +25,9 @@ Omicas 2026
   * Visualiazión y edición del genoma en JBrowse
   * Conclusiones sobre la utilidad y aplicabilidad como flujo bioinformatico reproducible  
 * ## Resultados
-Obtencion de imagenes en Jbrowse (Carpeta images)
+* images/JBROWSE/Captura de pantalla 2026-05-14 101819.png
+* images/JBROWSE/Captura de pantalla 2026-05-14 102002.png
+* images/JBROWSE/Captura de pantalla 2026-05-14 102013.png
 * ## Contribucion individual
 * Este proyecto se enfocó en el ensamblaje y la anotación estructural del genoma de *Escherichia coli* mediante el uso de herramientas bioinformáticas especializadas como Galaxy, Prokka y JBrowse. Inicialmente, se obtuvieron secuencias genómicas desde bases de datos públicas y se realizó un control de calidad para garantizar la integridad de las lecturas. Posteriormente, se ejecutó el ensamblaje del genoma en Galaxy, permitiendo reconstruir la secuencia genómica bacteriana a partir de fragmentos de ADN.
 
