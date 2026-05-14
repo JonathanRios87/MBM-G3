@@ -7,43 +7,18 @@ Integrantes
 * Pinduisaca Máximo
 * Rios Jonathan  
 * Sarango Jhandry
-  
-## OBJETIVO
-* Realizar la anotación estructural básica del genoma de Escherichia coli mediante Galaxy y Prokka, y posteriormente visualizar y editar las anotaciones en JBrowse, con el fin de establecer un flujo bioinformático reproducible para proyectos académicos y de investigación aplicada.
-
-## Problema biológico
-* El proyecto busca realizar la anotación estructural del genoma de *Escherichia coli* para identificar genes, regiones codificantes y elementos funcionales relevantes.
-
-## Hipótesis
-* Es posible identificar y anotar correctamente los genes funcionales del genoma de *E. coli* utilizando herramientas bioinformáticas como Galaxy y Prokka.
-
-## Metodología
-
-## Flujo de trabajo y organización
-
-Como parte del equipo, se desarrolló y organizó el flujo de trabajo bioinformático del proyecto, asegurando una secuencia adecuada de análisis y la correcta organización de archivos dentro del repositorio GitHub.
-
-### Flujo de trabajo bioinformático
-
-El flujo de trabajo implementado fue el siguiente:
-
-NCBI-SRA → FASTQ → FastQC → Trimmomatic → FastQC → SPAdes → Prokka → JBrowse → Resultados
-
-### Descripción del proceso
-
-- **NCBI-SRA:** obtención de lecturas genómicas de *Escherichia coli* desde la base de datos pública NCBI.
-- **FASTQ:** archivos de secuencias utilizados como entrada para el análisis bioinformático.
-- **FastQC:** evaluación de la calidad de las lecturas antes y después del filtrado.
-- **Trimmomatic:** eliminación de regiones de baja calidad y aplicación de HEADCROP:20.
-- **SPAdes:** ensamblaje del genoma bacteriano a partir de lecturas paired-end.
-- **Prokka:** anotación estructural del genoma bacteriano.
-- **JBrowse:** visualización e interpretación gráfica de las anotaciones genómicas.
-- **Resultados:** generación de archivos anotados y análisis preliminar del genoma ensamblado.
-
-
-
-Se incluyen evidencias visuales del proceso en la carpeta images/ del repositorio.
-## RESULTADOS
-## CONTRIBUCIÓN INDIVIDUAL
+* ## Objetivo
+* Realizar la anotación estructural básica del genoma de Klebsiella pneumoniae mediante Prokka, y posteriormente visualizar y editar las anotaciones en JBrowse, con el fin de establecer un flujo bioinformático reproducible para proyectos académicos y de investigación aplicada.  
+* ## Dataset
+* Escherichia Coli es un organismo modelo por excelencia en la biologia molecular, su rapido crecimiento y genoma bien definida permitieron descubrir como funciona el codigo genetico y la replicacion del ADN. En ingenieria genetica se utiliza para la produccion de medicamentos, compuestos quimicos y biocombustibles, mediante la modificacio de sus vias metabolicas, actua como celula huesped para la sintesis de proteinas complejas mediante la insercion de plasmidos. Se genoma flexible permite la incorporcion de transposones, fagos y plasmidos facilitando su clonacion y secuenciacion 
+* ## Flujo de trabajo
+* * Descarga del genoma completo de K. pneumoniae desde NCBI GenBank o ENA.
+  * Anotacion estructural con Prokka
+  * Coversión y verificación de formatos
+  * Instalar y configurar JBrowse
+  * Visualiazión y edición del genoma en JBrowse
+  * Conclusiones sobre la utilidad y aplicabilidad como flujo bioinformatico reproducible  
+* ## Resultados
+* ## Contribucion individual
 * Resumen breve  
 ## SCRIPTS  
