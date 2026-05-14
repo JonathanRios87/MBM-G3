@@ -23,13 +23,10 @@ Integrantes
   
 ## Dataset utilizado
 
-Fuente: NCBI
-
-Accession: MT781409.1
-
-Enlace: https://www.ncbi.nlm.nih.gov/nuccore/MT781409.1
-
-Formato: FASTA
+* Fuente: NCBI
+* Accession: MT781409.1
+* Enlace: https://www.ncbi.nlm.nih.gov/nuccore/MT781409.1
+* Formato: FASTA
 
 ## FLUJO DE TRABAJO
   * Descarga del genoma completo de K. pneumoniae desde NCBI GenBank o ENA.
@@ -38,7 +35,18 @@ Formato: FASTA
   * Instalar y configurar JBrowse
   * Visualiazión y edición del genoma en JBrowse
   * Conclusiones sobre la utilidad y aplicabilidad como flujo bioinformatico reproducible
-    
+
+## GALAXY VS LINEA DE COMANDOS
+
+| Característica        | Galaxy    | Línea de comandos |
+| --------------------- | --------- | ----------------- |
+| Facilidad de uso      | Alta      | Media             |
+| Requiere programación | No        | Sí                |
+| Automatización        | Limitada  | Alta              |
+| Flexibilidad          | Media     | Muy alta          |
+| Reproducibilidad      | Alta      | Muy alta          |
+| Uso en bioinformática | Académico | Profesional       |
+
   ### Workflow y organización
 
 Como parte del equipo, se desarrolló y organizó el flujo de trabajo bioinformático del proyecto, asegurando la correcta secuencia de análisis.
