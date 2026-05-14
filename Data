@@ -4,8 +4,7 @@ Organismo: E. coli
 https://www.ncbi.nlm.nih.gov/sra/?term=SRR2584863
 Illumina HiSeq 2500
 
-Data/
-└── processed/
+processed/
     ├── 01_fastqc_raw/
     │   ├── SRR2584863_fastqc.html
     │
