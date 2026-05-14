@@ -1,6 +1,6 @@
 # MBM-3
 Omicas 2026  
-## Proyecto:  Anotación estructural y ensamblaje del genoma de E. coli usando Galaxy y Prokka para su posterior visualizacion y edicion en JBrowse  
+# Proyecto:  Anotación estructural y ensamblaje del genoma de E. coli usando Galaxy y Prokka para su posterior visualizacion y edicion en JBrowse  
 ## Integrantes  
 * Castro Vanessa
 * Guerra Diego
@@ -16,7 +16,7 @@ Omicas 2026
 ## Dataset
 * Escherichia Coli es un organismo modelo por excelencia en la biologia molecular, su rapido crecimiento y genoma bien definida permitieron descubrir como funciona el codigo genetico y la replicacion del ADN. En ingenieria genetica se utiliza para la produccion de medicamentos, compuestos quimicos y biocombustibles, mediante la modificacio de sus vias metabolicas, actua como celula huesped para la sintesis de proteinas complejas mediante la insercion de plasmidos. Se genoma flexible permite la incorporcion de transposones, fagos y plasmidos facilitando su clonacion y secuenciacion  
 
-* # IDENTIFICACION DE SECUENCIA FATSQ E. Coli  
+* ## IDENTIFICACION DE SECUENCIA FATSQ E. Coli  
 * La secuencia se obtuvo de la base de datos NCBI  
 * https://trace.ncbi.nlm.nih.gov/Traces/?run=SRR2584863  
 * La elección e importancia del estudio de E. coli radica en su rol como organismo modelo, su gran versatilidad y capacidad de analisis permite validar herramientas bioinformáticas de ensamblaje y además estudiar los mecanismos de adaptación y resistencia.
