@@ -58,6 +58,39 @@ Responsable de:
 * Buscar y descargar la secuencia FASTQ desde bases de datos públicas como NCBI.
 * Subir la secuencia al repositorio GitHub en la carpeta data/raw/.  
 
+Jhandry Sarango - Galaxy y analisis bioinformatico
+Responsable de:
+• Trabajar en Galaxy para ejecutar el análisis bioinformático.
+• Importar la secuencia FASTQ en Galaxy.
+• Ejecutar Prokka para realizar la anotación genómica.
+• Subir resultados al repositorio GitHub en la carpeta resultados
+• Verificar archivos generados
+
+Vanessa Castro  — Workflow y organización del proyecto
+Responsable de:
+• Crear el workflow bioinformático del proyecto.
+• Elaborar y explicar el diagrama del flujo de trabajo
+• Organizar carpetas y archivos dentro del repositorio GitHub.
+
+Diego Guerra — README y línea de comandos
+Responsable de:
+* Redactar y organizar el archivo README.md en GitHub.
+* Documentar:
+o objetivo,
+o metodología,
+o dataset,
+o flujo de trabajo,
+o resultados del proyecto.
+
+Jonathan Rios — Interpretacion biologica e informe.md
+Integrar y organizar el informe.md en GitHub.
+• Organizar capturas y explicaciones del proyecto.
+• Redactar la interpretación biológica preliminar de los resultados obtenidos.
+• Explicar la importancia biológica del organismo o secuencia analizada.
+• Documentar el trabajo colaborativo realizado durante el proyecto.
+• Explicar el uso de herramientas de IA utilizadas como apoyo.
+
+
 
 ## SCRIPTS  
 <img width="1266" height="591" alt="image" src="https://github.com/user-attachments/assets/a4b026bf-e349-41b0-9382-a34236d3078c" />
