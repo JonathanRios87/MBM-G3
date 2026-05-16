@@ -16,7 +16,10 @@ Omicas 2026
 ## Objetivo
 * Realizar la anotación estructural del genoma de E. coli mediante Prokka usando Galaxy, y posteriormente visualizar y editar las anotaciones en JBrowse, con el fin de establecer un flujo bioinformático reproducible para proyectos académicos y de investigación aplicada.  
 ## Dataset
-* Escherichia Coli es un organismo modelo por excelencia en la biologia molecular, su rapido crecimiento y genoma bien definida permitieron descubrir como funciona el codigo genetico y la replicacion del ADN. En ingenieria genetica se utiliza para la produccion de medicamentos, compuestos quimicos y biocombustibles, mediante la modificacio de sus vias metabolicas, actua como celula huesped para la sintesis de proteinas complejas mediante la insercion de plasmidos. Se genoma flexible permite la incorporcion de transposones, fagos y plasmidos facilitando su clonacion y secuenciacion  
+NCBI -> SRR2584863	
+Organismo: E. coli
+https://www.ncbi.nlm.nih.gov/sra/?term=SRR2584863
+Illumina HiSeq 2500  
 
  ## Identificación de secuencia fatsq E. coli 
 * La secuencia se obtuvo de la base de datos NCBI  
