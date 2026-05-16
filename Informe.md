@@ -1,4 +1,4 @@
-PROYECTO : ** Anotación estructural y ensamblaje del genoma de *Escherichia coli* utilizando Galaxy y Prokka para su posterior visualización en JBrowse **  
+PROYECTO : ** Ensamblaje y anotacion estructural del genoma de *Escherichia coli* utilizando Galaxy y Prokka para su posterior visualización en JBrowse **  
 Integrantes:  
 * Maximo Pinduisaca  
 * Jhandry Sarango  
@@ -91,7 +91,7 @@ Todas las evidencias del proceso (capturas de pantalla, resultados intermedios y
 
 **Resultados finales**  
 
-* Dentro de los resultados obtenidos tenemos que se realizaron controles de calidad por medio del programa Galaxy de la data cruda obtendida en NCBI
+* Dentro de los resultados obtenidos tenemos que se realizaron controles de calidad por medio del programa Galaxy de la data cruda SRR obtendida en NCBI
 * Al analizar los resultados del control se observo que existen ciertas particularidades entre las que destacan:  
 
 1 Buena calidad general de las lecturas (sin secuencias marcadas como de baja calidad).
@@ -101,8 +101,6 @@ Todas las evidencias del proceso (capturas de pantalla, resultados intermedios y
 
 Lecturas filtradas (Trimmomatic + FastQC post-trimming)
 Mejora notable en la calidad promedio por base.
-
-Gráfico “Per base sequence quality”:
 
 La mayoría de las posiciones se encuentran en la zona verde (Q > 30), indicando alta precisión en las llamadas de bases.  
 
@@ -119,7 +117,7 @@ Genes anotados como proteínas hipotéticas, transportadores de membrana (YdiM),
 
 Organización genómica coherente y sin interrupciones evidentes.
 
-Eliminación efectiva de adaptadores y regiones de baja calidad.
+Eliminación efectiva de adaptadores y regiones de baja calidad. Realizado el corte HEADCROP:20 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36 2>&1
 
 Como resultado del flujo de trabajo se obtuvo:
 * Un genoma ensamblado de *Escherichia coli*
@@ -127,14 +125,14 @@ Como resultado del flujo de trabajo se obtuvo:
 * Archivos interpretables (.gff, .fna)
 * Visualización genómica en JBrowse
 
-Estos resultados permiten un análisis preliminar de la estructura genética del organismo.
 
 **4. Discusion**  
 
-* Las lecturas son de alta calidad y adecuadas para análisis posteriores. La variación inicial en el contenido de bases no afecta significativamente la integridad del dataset.  
-* El proceso de trimming optimizó la calidad de las lecturas, garantizando datos confiables para la anotación genómica.  
-* El perfil GC es consistente con el genoma de Escherichia coli, confirmando la pureza del dataset.  
-* La anotación revela genes implicados en transporte y metabolismo, funciones esenciales para la supervivencia y adaptación de E. coli. La presencia de proteínas hipotéticas sugiere regiones aún no caracterizadas, potencialmente relevantes para estudios evolutivos.  
+El flujo bioinformático implementado permitió obtener un genoma ensamblado y anotado de Escherichia coli, validando la utilidad de herramientas abiertas y reproducibles como Galaxy, SPAdes, Prokka y JBrowse. Los resultados de control de calidad evidenciaron que las lecturas iniciales eran adecuadas para el ensamblaje, aunque presentaban ligeras variaciones en el contenido de bases y adaptadores residuales, los cuales fueron corregidos mediante Trimmomatic. Esto resalta la importancia de aplicar filtros de calidad antes de cualquier análisis genómico, ya que garantizan la confiabilidad de los datos posteriores.
+
+El ensamblaje con SPAdes generó contigs coherentes con la estructura esperada del genoma bacteriano, lo que permitió a Prokka identificar genes codificantes y elementos funcionales. La presencia de proteínas hipotéticas y enzimas metabólicas refleja tanto la riqueza funcional del genoma como las limitaciones de las bases de datos actuales, donde aún existen regiones poco caracterizadas.
+
+La visualización en JBrowse aportó un valor pedagógico y analítico adicional, al permitir explorar de manera interactiva la organización genómica y verificar la coherencia de las anotaciones. Este aspecto es clave en proyectos académicos, ya que facilita la interpretación biológica y la comprensión de la relación entre secuencia y función.
 
 **5. Conclusiones**  
 
@@ -145,3 +143,6 @@ Los resultados son biológicamente interpretables porque confirman:
 * La idoneidad del dataset para estudios evolutivos y comparativos.
   
 **6. Referencias bibliograficas**  
+* https://usegalaxy.org/published/history?id=bbd44e69cb8906b5cebab145156dfe30
+* https://gxy.io/GTN:T00168?utm_source=copilot.com}
+* https://pubmed.ncbi.nlm.nih.gov/27479321/
