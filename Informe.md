@@ -22,6 +22,9 @@ Posteriormente, las anotaciones obtenidas serán visualizadas en JBrowse, un nav
 
 **2. Metodologia (Workflow)**  
 
+Se utilizo como guia para este proyecto el tutorial 6 de la lista de tutoriales opcionales  
+Link: https://training.galaxyproject.org/training-material/topics/genome-annotation/tutorials/annotation-with-prokka/tutorial.html  
+
 **Flujo de trabajo bioinformático implementado**
 
 El flujo de trabajo utilizado en el proyecto sigue un proceso estándar de análisis genómico, desde la obtención de datos crudos hasta la anotación e interpretación biológica final.
