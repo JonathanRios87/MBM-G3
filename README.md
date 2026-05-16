@@ -53,44 +53,56 @@ Illumina HiSeq 2500
 
 Maximo Pinduisaca — Búsqueda de secuencias y planteamiento biológico
 Responsable de:
-* Buscar información sobre el organismo seleccionado para el proyecto.
-* Explicar la importancia biológica y microbiológica del organismo estudiado.
-* Buscar y descargar la secuencia FASTQ desde bases de datos públicas como NCBI.
+* Buscar información sobre el organismo seleccionado para el proyecto.  
+* Explicar la importancia biológica y microbiológica del organismo estudiado.  
+* Buscar y descargar la secuencia FASTQ desde bases de datos públicas como NCBI.  
 * Subir la secuencia al repositorio GitHub en la carpeta data/raw/.  
 
 Jhandry Sarango - Galaxy y analisis bioinformatico
 Responsable de:
-• Trabajar en Galaxy para ejecutar el análisis bioinformático.
-• Importar la secuencia FASTQ en Galaxy.
-• Ejecutar Prokka para realizar la anotación genómica.
-• Subir resultados al repositorio GitHub en la carpeta resultados
-• Verificar archivos generados
+• Trabajar en Galaxy para ejecutar el análisis bioinformático.  
+• Importar la secuencia FASTQ en Galaxy.  
+• Ejecutar Prokka para realizar la anotación genómica.  
+• Subir resultados al repositorio GitHub en la carpeta resultados  
+• Verificar archivos generados  
 
 Vanessa Castro  — Workflow y organización del proyecto
 Responsable de:
-• Crear el workflow bioinformático del proyecto.
-• Elaborar y explicar el diagrama del flujo de trabajo
-• Organizar carpetas y archivos dentro del repositorio GitHub.
+• Crear el workflow bioinformático del proyecto.  
+• Elaborar y explicar el diagrama del flujo de trabajo  
+• Organizar carpetas y archivos dentro del repositorio GitHub.  
 
 Diego Guerra — README y línea de comandos
 Responsable de:
-* Redactar y organizar el archivo README.md en GitHub.
-* Documentar:
+* Redactar y organizar el archivo README.md en GitHub.  
+* Documentar:  
 o objetivo,
 o metodología,
 o dataset,
 o flujo de trabajo,
 o resultados del proyecto.
 
-Jonathan Rios — Interpretacion biologica e informe.md
-Integrar y organizar el informe.md en GitHub.
-• Organizar capturas y explicaciones del proyecto.
-• Redactar la interpretación biológica preliminar de los resultados obtenidos.
-• Explicar la importancia biológica del organismo o secuencia analizada.
-• Documentar el trabajo colaborativo realizado durante el proyecto.
-• Explicar el uso de herramientas de IA utilizadas como apoyo.
+Jonathan Rios — Interpretacion biologica e informe.md  
+Integrar y organizar el informe.md en GitHub.  
+• Organizar capturas y explicaciones del proyecto.  
+• Redactar la interpretación biológica preliminar de los resultados obtenidos.  
+• Explicar la importancia biológica del organismo o secuencia analizada.  
+• Documentar el trabajo colaborativo realizado durante el proyecto.  
+• Explicar el uso de herramientas de IA utilizadas como apoyo.  
 
 
 
 ## SCRIPTS  
-<img width="1266" height="591" alt="image" src="https://github.com/user-attachments/assets/a4b026bf-e349-41b0-9382-a34236d3078c" />
+fastqc SRRSRR2584863.fastq
+ 
+java -jar /usr/share/java/trimmomatic-0.39.jar SE -phred33 SRR2584863.fastq SRR2584863_trimmed.fastq HEADCROP:20 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36 2>&1 | tee trimming.log
+ 
+fastqc SRR2584863_trimmed.fastq
+
+spades.py --isolate -s SRR2584863_trimmed.fastq -o spades_output -t 2 -m 2
+ 
+seqkit stats scaffolds.fasta
+ 
+bwa index scaffolds_fasta
+ 
+bwa mem ../scaffolds.fasta ../SRR2584863_trimmed.fastq -o bwaFile.sam
