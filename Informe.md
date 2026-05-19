@@ -96,9 +96,9 @@ Todas las evidencias del proceso (capturas de pantalla, resultados intermedios y
 * Dentro de los resultados obtenidos tenemos que se realizaron controles de calidad por medio del programa Galaxy de la data cruda SRR obtendida en NCBI
 * Al analizar los resultados del control se observo que existen ciertas particularidades entre las que destacan:  
 
-1 Buena calidad general de las lecturas (sin secuencias marcadas como de baja calidad).
-2 Variación inicial en el contenido de bases (A, T, G, C) durante los primeros 10–15 pb, típica de la fase de arranque del secuenciador.
-3 Ligera desviación en el contenido GC, pero dentro del rango esperado para E. coli.
+1 Buena calidad general de las lecturas (sin secuencias marcadas como de baja calidad).  
+2 Variación inicial en el contenido de bases (A, T, G, C) durante los primeros 10–15 pb, típica de la fase de arranque del secuenciador.  
+3 Ligera desviación en el contenido GC, pero dentro del rango esperado para *E. coli*  
 4 Presencia mínima de adaptadores, corregible con Trimmomatic.
 
 Lecturas filtradas (Trimmomatic + FastQC post-trimming)
