@@ -1,4 +1,4 @@
-PROYECTO : ** Ensamblaje y anotacion estructural del genoma de *Escherichia coli* utilizando Galaxy y Prokka para su posterior visualización en JBrowse **  
+PROYECTO : **Ensamblaje y anotacion estructural del genoma de *Escherichia coli* utilizando Galaxy y Prokka para su posterior visualización en JBrowse**  
 Integrantes:  
 * Maximo Pinduisaca  
 * Jhandry Sarango  
@@ -7,10 +7,10 @@ Integrantes:
 * Jonathan Rios
   
 **Objetivo**   
-* Realizar el ensamblaje y la anotación estructural del genoma de *Escherichia coli* utilizando datos provenientes de NCBI-SRA, mediante herramientas bioinformáticas como FastQC, Trimmomatic, SPAdes, Prokka y JBrowse, para obtener un genoma anotado e interpretable biológicamente. 
+Realizar el ensamblaje y la anotación estructural del genoma de *Escherichia coli* utilizando datos provenientes de NCBI-SRA, mediante herramientas bioinformáticas como FastQC, Trimmomatic, SPAdes, Prokka y JBrowse, para obtener un genoma anotado e interpretable biológicamente. 
 
 **Problema biológico**
-* El proyecto busca realizar la anotación estructural del genoma de *Escherichia coli* para identificar genes, regiones codificantes y elementos funcionales relevantes.
+El proyecto busca realizar la anotación estructural del genoma de *Escherichia coli* para identificar genes, regiones codificantes y elementos funcionales relevantes.
 
 **1. Introducción**  
 
@@ -106,6 +106,7 @@ La mayoría de las posiciones se encuentran en la zona verde (Q > 30), indicando
 
 Distribución de contenido GC
 Promedio: ~50% GC.  
+El resultado es consistente con lo esperado para genomas “modelo” como *E. coli*, que rondan el 50% GC, lo que sugiere que la secuencia analizada no presenta contaminación evidente.
 
 Curva de distribución: Simétrica y centrada, lo que indica homogeneidad en el contenido GC y ausencia de contaminación o sesgo de secuenciación.  
 Anotación y visualización (Prokka + JBrowse)
