@@ -31,6 +31,8 @@ El flujo de trabajo utilizado en el proyecto sigue un proceso estándar de anál
 
 * NCBI-SRA → FASTQ → FastQC → Trimmomatic → FastQC → SPAdes → Prokka → JBrowse → Resultados
 
+![Workflow](images/workflow_escherichia_coli.png)
+
 **Descripción detallada del proceso**
 
 **NCBI-SRA**
@@ -104,7 +106,7 @@ Mejora notable en la calidad promedio por base.
 
 La mayoría de las posiciones se encuentran en la zona verde (Q > 30), indicando alta precisión en las llamadas de bases.  
 
-Distribución de contenido GC
+**Distribución de contenido GC**
 Promedio: ~50% GC.  
 El resultado es consistente con lo esperado para genomas “modelo” como *E. coli*, que rondan el 50% GC, lo que sugiere que la secuencia analizada no presenta contaminación evidente.
 
