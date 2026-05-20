@@ -48,6 +48,7 @@ Illumina HiSeq 2500
   * Instalar y configurar JBrowse
   * Visualiazión y edición del genoma en JBrowse
   * Conclusiones sobre la utilidad y aplicabilidad como flujo bioinformatico reproducible  
+  
 ## Resultados
 
 * Los resultados del análisis realizado en Galaxy mostraron que las lecturas obtenidas de NCBI presentaron buena calidad general y un contenido GC cercano al 50%, consistente con Escherichia coli. La presencia de adaptadores y regiones de baja calidad fue corregida mediante Trimmomatic, mejorando la precisión de las lecturas (Q > 30).
