@@ -101,12 +101,18 @@ Todas las evidencias del proceso (capturas de pantalla, resultados intermedios y
 3 Ligera desviación en el contenido GC, pero dentro del rango esperado para *E. coli*  
 4 Presencia mínima de adaptadores, corregible posteriormente con Trimmomatic.
 
-Se filtro las lecturas mediante un nuevo análisis de calidad con FastQC post-trimming), donde se observo una mejora notable en la lectura. Analizando las graficas obtenidas en los programas utilizados se observa que la mayoría de las posiciones se encuentran en la zona verde (Q > 30), indicando alta precisión en las llamadas de bases.  
+Se filtro las lecturas mediante un nuevo análisis de calidad con FastQC post-trimming, donde se observo una mejora notable en la lectura. Analizando las graficas obtenidas en los programas utilizados se observa que la mayoría de las posiciones se encuentran en la zona verde (Q > 30), indicando alta precisión en las llamadas de bases.  
 
-Arbol filogenético 
-![Arbol filogenético](images/)
+*Arbol filogenético* 
+![Arbol filogenético](images/Arbol filogenetico.jpg)
 
-**Distribución de contenido GC**
+*Heatmap*
+![Heatmap](images/Heatmap.jpg)
+
+*Genes encontrados*
+![Genes encontrados](images/Genes encontrados.png)  
+
+*Distribución de contenido GC*
 Promedio: ~50% GC.  
 El resultado es consistente con lo esperado para genomas “modelo” como *E. coli*, que rondan el 50% GC, lo que sugiere que la secuencia analizada no presenta contaminación evidente.
 
@@ -114,13 +120,11 @@ Curva de distribución: Simétrica y centrada, lo que indica homogeneidad en el 
 Anotación y visualización (Prokka + JBrowse)
 Herramientas: Prokka (anotación automática) y JBrowse (visualización).
 
-Resultados visibles:
+**Resultados visibles**:
 
-Genes anotados como proteínas hipotéticas, transportadores de membrana (YdiM), enzimas metabólicas como quinate/shikimate deshidrogenasa y 3-dehidroquinato deshidratasa.
-
-Organización genómica coherente y sin interrupciones evidentes.
-
-Eliminación efectiva de adaptadores y regiones de baja calidad. Realizado el corte HEADCROP:20 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36 2>&1
+* Genes anotados como proteínas hipotéticas, transportadores de membrana (YdiM), enzimas metabólicas como quinate/shikimate deshidrogenasa y 3-dehidroquinato deshidratasa.
+* Organización genómica coherente y sin interrupciones evidentes.
+* Eliminación efectiva de adaptadores y regiones de baja calidad. Realizado el corte HEADCROP:20 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36 2>&1
 
 Como resultado del flujo de trabajo se obtuvo:
 * Un genoma ensamblado de *Escherichia coli*
