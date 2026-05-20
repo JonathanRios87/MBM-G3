@@ -40,14 +40,6 @@ Illumina HiSeq 2500
   <img src="images/workflow_escherichia_coli.png" width="800">
 </p>
 
-  * Descarga del genoma E. coli desde NCBI GenBank SRR2584863 
-  * Control Calidad Datos
-  * Trimming
-  * Ensamblaje
-  * Anotacion estructural con Prokka
-  * Instalar y configurar JBrowse
-  * Visualiazión y edición del genoma en JBrowse
-  * Conclusiones sobre la utilidad y aplicabilidad como flujo bioinformatico reproducible  
   
 ## Resultados
 
@@ -69,35 +61,40 @@ Responsable de:
 
 Jhandry Sarango - Galaxy y analisis bioinformatico
 Responsable de:
-• Trabajar en Galaxy para ejecutar el análisis bioinformático.  
-• Importar la secuencia FASTQ en Galaxy.  
-• Ejecutar Prokka para realizar la anotación genómica.  
-• Subir resultados al repositorio GitHub en la carpeta resultados  
-• Verificar archivos generados  
+* Trabajar en Galaxy para ejecutar el análisis bioinformático.
+* Importar la secuencia FASTQ en Galaxy.
+* Ejecutar Prokka para realizar la anotación genómica.
+* Subir resultados al repositorio GitHub en la carpeta resultados
+* Verificar archivos generados  
 
 Vanessa Castro  — Workflow y organización del proyecto
 Responsable de:
-• Crear el workflow bioinformático del proyecto.  
-• Elaborar y explicar el diagrama del flujo de trabajo  
-• Organizar carpetas y archivos dentro del repositorio GitHub.  
+* Crear el workflow bioinformático del proyecto.  
+* Elaborar y explicar el diagrama del flujo de trabajo.  
+* Organizar carpetas y archivos dentro del repositorio GitHub.  
+* Coordinar la estructura general del análisis bioinformático.  
+* Verificar la secuencia lógica de las etapas del workflow.  
+* Documentar el flujo de procesamiento desde FASTQ hasta la anotación genómica.  
+* Explicar la finalidad de cada herramienta utilizada dentro del pipeline bioinformático.  
+* Apoyar en la organización y reproducibilidad del proyecto en GitHub.  
 
 Diego Guerra — README y línea de comandos
 Responsable de:
 * Redactar y organizar el archivo README.md en GitHub.  
-* Documentar:  
-o objetivo,
-o metodología,
-o dataset,
-o flujo de trabajo,
-o resultados del proyecto.
+* Documentar:
+* objetivo,
+* metodología,
+* dataset,
+* flujo de trabajo,
+* resultados del proyecto.
 
 Jonathan Rios — Interpretacion biologica e informe.md  
 Integrar y organizar el informe.md en GitHub.  
-• Organizar capturas y explicaciones del proyecto.  
-• Redactar la interpretación biológica preliminar de los resultados obtenidos.  
-• Explicar la importancia biológica del organismo o secuencia analizada.  
-• Documentar el trabajo colaborativo realizado durante el proyecto.  
-• Explicar el uso de herramientas de IA utilizadas como apoyo.  
+* Organizar capturas y explicaciones del proyecto.
+* Redactar la interpretación biológica preliminar de los resultados obtenidos.
+* Explicar la importancia biológica del organismo o secuencia analizada.
+* Documentar el trabajo colaborativo realizado durante el proyecto.
+* Explicar el uso de herramientas de IA utilizadas como apoyo.  
 
 ## SCRIPTS  
 fastqc SRRSRR2584863.fastq
