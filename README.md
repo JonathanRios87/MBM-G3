@@ -16,7 +16,6 @@ Omicas 2026
 ## Objetivo
 * Realizar el ensamblaje y la anotación estructural del genoma de *Escherichia coli* utilizando datos provenientes de NCBI-SRA, mediante herramientas bioinformáticas como FastQC, Trimmomatic, SPAdes, Prokka y JBrowse, para obtener un genoma anotado e interpretable biológicamente.
 
-* Problema biológico El proyecto busca realizar la anotación estructural del genoma de *Escherichia coli* para identificar genes, regiones codificantes y elementos funcionales relevantes.
 ## Dataset
 NCBI -> SRR2584863	
 Organismo: *Escherichia coli*
