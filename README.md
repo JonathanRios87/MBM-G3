@@ -1,6 +1,6 @@
 # MBM-3
 Omicas 2026  
-# Proyecto:  Ensamblaje y anotación estructural del genoma de E. coli usando Galaxy y Prokka para su posterior visualizacion y edicion en JBrowse  
+# Proyecto:  Ensamblaje y anotación estructural del genoma de *Escherichia coli* usando Galaxy y Prokka para su posterior visualizacion y edicion en JBrowse  
 ## Integrantes  
 * Castro Vanessa
 * Guerra Diego
@@ -9,35 +9,37 @@ Omicas 2026
 * Sarango Jhandry
 
 ## Planteamiento del problema
-* El ensamblaje y la anotación estructural de genomas bacterianos constituyen procesos fundamentales en la genómica funcional y bioinformática, debido a su importancia en la identificación de genes, regiones codificantes y elementos regulatorios. Sin embargo, la integración de herramientas como Galaxy, Prokka y JBrowse presenta limitaciones relacionadas con la reproducibilidad, compatibilidad de formatos y correcta interpretación de datos genómicos. En el caso de Escherichia coli, una anotación deficiente puede afectar la identificación precisa de genes y la visualización estructural del genoma. Por ello, se plantea implementar un flujo de trabajo bioinformático para el ensamblaje, anotación estructural y posterior visualización genómica, optimizando la organización, análisis y edición de la información genética bacteriana.
+* El ensamblaje y la anotación estructural de genomas bacterianos constituyen procesos fundamentales en la genómica funcional y bioinformática, debido a su importancia en la identificación de genes, regiones codificantes y elementos regulatorios. Sin embargo, la integración de herramientas como Galaxy, Prokka y JBrowse presenta limitaciones relacionadas con la reproducibilidad, compatibilidad de formatos y correcta interpretación de datos genómicos. En el caso de *Escherichia coli*, una anotación deficiente puede afectar la identificación precisa de genes y la visualización estructural del genoma. Por ello, se plantea implementar un flujo de trabajo bioinformático para el ensamblaje, anotación estructural y posterior visualización genómica, optimizando la organización, análisis y edición de la información genética bacteriana.
 
- * Una vez ensamblado el genoma, se aplicó Prokka para identificar genes, regiones codificantes, ARN ribosomal y otros elementos genéticos presentes en el organismo. Los archivos generados en formatos FASTA y GFF fueron posteriormente integrados en JBrowse para la visualización y edición de la estructura genómica de *E. coli*. Este flujo de trabajo permitió desarrollar un análisis reproducible y organizado, fortaleciendo competencias en genómica, anotación estructural y manejo de herramientas bioinformáticas aplicadas al análisis molecular bacteriano.
+ * Una vez ensamblado el genoma, se aplicó Prokka para identificar genes, regiones codificantes, ARN ribosomal y otros elementos genéticos presentes en el organismo. Los archivos generados en formatos FASTA y GFF fueron posteriormente integrados en JBrowse para la visualización y edición de la estructura genómica de *Escherichia coli*. Este flujo de trabajo permitió desarrollar un análisis reproducible y organizado, fortaleciendo competencias en genómica, anotación estructural y manejo de herramientas bioinformáticas aplicadas al análisis molecular bacteriano.
 
 ## Objetivo
-* Realizar el ensamblaje y la anotación estructural del genoma de Escherichia coli utilizando datos provenientes de NCBI-SRA, mediante herramientas bioinformáticas como FastQC, Trimmomatic, SPAdes, Prokka y JBrowse, para obtener un genoma anotado e interpretable biológicamente.
+* Realizar el ensamblaje y la anotación estructural del genoma de *Escherichia coli* utilizando datos provenientes de NCBI-SRA, mediante herramientas bioinformáticas como FastQC, Trimmomatic, SPAdes, Prokka y JBrowse, para obtener un genoma anotado e interpretable biológicamente.
 
-* Problema biológico El proyecto busca realizar la anotación estructural del genoma de Escherichia coli para identificar genes, regiones codificantes y elementos funcionales relevantes.
+* Problema biológico El proyecto busca realizar la anotación estructural del genoma de *Escherichia coli* para identificar genes, regiones codificantes y elementos funcionales relevantes.
 ## Dataset
 NCBI -> SRR2584863	
-Organismo: E. coli
+Organismo: *Escherichia coli*
 https://www.ncbi.nlm.nih.gov/sra/?term=SRR2584863
 Illumina HiSeq 2500  
 
- ## Identificación de secuencia fatsq E. coli 
+ ## Identificación de secuencia fatsq *Escherichia coli* 
 * La secuencia se obtuvo de la base de datos NCBI  
 * https://trace.ncbi.nlm.nih.gov/Traces/?run=SRR2584863  
-* La elección e importancia del estudio de E. coli radica en su rol como organismo modelo, su gran versatilidad y capacidad de analisis permite validar herramientas bioinformáticas de ensamblaje y además estudiar los mecanismos de adaptación y resistencia.
+* La elección e importancia del estudio de *Escherichia coli* radica en su rol como organismo modelo, su gran versatilidad y capacidad de analisis permite validar herramientas bioinformáticas de ensamblaje y además estudiar los mecanismos de adaptación y resistencia.
  
 <img width="1366" height="768" alt="imagen" src="https://github.com/user-attachments/assets/c46625bc-9acf-4c04-9575-01f37664a183" />
 <img width="1366" height="768" alt="imagen" src="https://github.com/user-attachments/assets/1db1370c-8fdf-44e9-8953-1e30be0747d8" />
 <img width="1366" height="768" alt="imagen" src="https://github.com/user-attachments/assets/dfa634a8-8904-4fd2-a6ff-aca7243dfd66" />
 
 ## Flujo de trabajo
+* El flujo de trabajo utilizado en el proyecto sigue un proceso estándar de análisis genómico, desde la obtención de datos crudos hasta la anotación e interpretación biológica final.
+
+* NCBI-SRA → FASTQ → FastQC → Trimmomatic → FastQC → SPAdes → Prokka → JBrowse → Resultados
 
 <p align="center">
   <img src="images/workflow_escherichia_coli.png" width="800">
 </p>
-
   * Descarga del genoma E. coli desde NCBI GenBank SRR2584863 
   * Control Calidad Datos
   * Trimming
@@ -95,8 +97,6 @@ Integrar y organizar el informe.md en GitHub.
 • Explicar la importancia biológica del organismo o secuencia analizada.  
 • Documentar el trabajo colaborativo realizado durante el proyecto.  
 • Explicar el uso de herramientas de IA utilizadas como apoyo.  
-
-
 
 ## SCRIPTS  
 fastqc SRRSRR2584863.fastq
