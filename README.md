@@ -14,7 +14,9 @@ Omicas 2026
  * Una vez ensamblado el genoma, se aplicó Prokka para identificar genes, regiones codificantes, ARN ribosomal y otros elementos genéticos presentes en el organismo. Los archivos generados en formatos FASTA y GFF fueron posteriormente integrados en JBrowse para la visualización y edición de la estructura genómica de *E. coli*. Este flujo de trabajo permitió desarrollar un análisis reproducible y organizado, fortaleciendo competencias en genómica, anotación estructural y manejo de herramientas bioinformáticas aplicadas al análisis molecular bacteriano.
 
 ## Objetivo
-* Realizar la anotación estructural del genoma de E. coli mediante Prokka usando Galaxy, y posteriormente visualizar y editar las anotaciones en JBrowse, con el fin de establecer un flujo bioinformático reproducible para proyectos académicos y de investigación aplicada.  
+* Realizar el ensamblaje y la anotación estructural del genoma de Escherichia coli utilizando datos provenientes de NCBI-SRA, mediante herramientas bioinformáticas como FastQC, Trimmomatic, SPAdes, Prokka y JBrowse, para obtener un genoma anotado e interpretable biológicamente.
+
+* Problema biológico El proyecto busca realizar la anotación estructural del genoma de Escherichia coli para identificar genes, regiones codificantes y elementos funcionales relevantes.
 ## Dataset
 NCBI -> SRR2584863	
 Organismo: E. coli
