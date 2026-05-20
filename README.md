@@ -47,6 +47,10 @@ Illumina HiSeq 2500
   * Visualiazión y edición del genoma en JBrowse
   * Conclusiones sobre la utilidad y aplicabilidad como flujo bioinformatico reproducible  
 ## Resultados
+
+* Los resultados del análisis realizado en Galaxy mostraron que las lecturas obtenidas de NCBI presentaron buena calidad general y un contenido GC cercano al 50%, consistente con Escherichia coli. La presencia de adaptadores y regiones de baja calidad fue corregida mediante Trimmomatic, mejorando la precisión de las lecturas (Q > 30).
+* Posteriormente, con Prokka y JBrowse, se obtuvo un genoma ensamblado y anotado funcionalmente, identificando genes y enzimas metabólicas relevantes, además de archivos interpretables y visualización genómica adecuada.
+
 <img width="1365" height="629" alt="Captura de pantalla 2026-05-14 100856" src="https://github.com/user-attachments/assets/4540a942-f7d4-48c9-91b7-8fac78dc533c" />
 <img width="1060" height="582" alt="Captura de pantalla 2026-05-14 102002" src="https://github.com/user-attachments/assets/dc29a882-ecc1-4bc4-b08c-0ea2dbc84fa3" />
 <img width="1261" height="628" alt="Captura de pantalla 2026-05-14 102013" src="https://github.com/user-attachments/assets/911b5ba4-465a-4c50-ba97-d6347491692d" />
