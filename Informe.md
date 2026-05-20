@@ -106,10 +106,13 @@ Se filtro las lecturas mediante un nuevo análisis de calidad con FastQC post-tr
 *Arbol filogenético* 
 ![Arbol filogenético](images/arbol.jpg)  
 
-*Heatmap*
+ 
+*Heatmap*  
+
 ![Heatmap](images/Heatmap.jpg)  
 
-*Genes encontrados*
+*Genes encontrados*  
+
 ![Genes encontrados](images/genes.png)  
 
 *Distribución de contenido GC*
