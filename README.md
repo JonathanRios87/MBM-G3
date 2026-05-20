@@ -57,7 +57,8 @@ Responsable de:
 * Buscar información sobre el organismo seleccionado para el proyecto.  
 * Explicar la importancia biológica y microbiológica del organismo estudiado.  
 * Buscar y descargar la secuencia FASTQ desde bases de datos públicas como NCBI.  
-* Subir la secuencia al repositorio GitHub en la carpeta data/raw/.  
+* Subir la secuencia al repositorio GitHub en la carpeta data/raw/.
+* Comparacion entre el uso de la plataforma Galaxy vs Linea de comando   
 
 Jhandry Sarango - Galaxy y analisis bioinformatico
 Responsable de:
