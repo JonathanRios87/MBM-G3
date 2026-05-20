@@ -50,6 +50,11 @@ Illumina HiSeq 2500
 <img width="1060" height="582" alt="Captura de pantalla 2026-05-14 102002" src="https://github.com/user-attachments/assets/dc29a882-ecc1-4bc4-b08c-0ea2dbc84fa3" />
 <img width="1261" height="628" alt="Captura de pantalla 2026-05-14 102013" src="https://github.com/user-attachments/assets/911b5ba4-465a-4c50-ba97-d6347491692d" />
 
+##  Comparacion del uso de la plataforma Galaxy vs Lineas de comando
+
+El uso de Galaxy es excelente para facilitar a investigadores realizar análisis omicos complejos tanto como el análisis, la organización y la visualización rápida a través de su historial y a través de una interfaz gráfica intuitiva, sin necesidad de saber programar ni usar comandos.
+En el caso del uso de líneas de comandos ofrece una mayor flexibilidad para usuarios avanzados que desean automatizar procesos mediante scripts detallados. Ambos métodos fueron utilizados en este proyecto para garantizar un análisis reproducible y organizado de organismo en cuestion Escherichia coli.
+
 ## Contribucion individual
 
 Maximo Pinduisaca — Búsqueda de secuencias y planteamiento biológico
