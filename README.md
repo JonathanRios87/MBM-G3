@@ -40,6 +40,7 @@ Illumina HiSeq 2500
 <p align="center">
   <img src="images/workflow_escherichia_coli.png" width="800">
 </p>
+
   * Descarga del genoma E. coli desde NCBI GenBank SRR2584863 
   * Control Calidad Datos
   * Trimming
