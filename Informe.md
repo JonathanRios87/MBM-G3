@@ -104,13 +104,13 @@ Todas las evidencias del proceso (capturas de pantalla, resultados intermedios y
 Se filtro las lecturas mediante un nuevo análisis de calidad con FastQC post-trimming, donde se observo una mejora notable en la lectura. Analizando las graficas obtenidas en los programas utilizados se observa que la mayoría de las posiciones se encuentran en la zona verde (Q > 30), indicando alta precisión en las llamadas de bases.  
 
 *Arbol filogenético* 
-![Arbol filogenético](images/Arbolfilogenetico.jpg)  
+![Arbol filogenético](images/arbol.jpg)  
 
 *Heatmap*
 ![Heatmap](images/Heatmap.jpg)  
 
 *Genes encontrados*
-![Genes encontrados](images/Genesencontrados.png)  
+![Genes encontrados](images/genes.png)  
 
 *Distribución de contenido GC*
 Promedio: ~50% GC.  
