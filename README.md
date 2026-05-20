@@ -97,15 +97,15 @@ Integrar y organizar el informe.md en GitHub.
 * Explicar el uso de herramientas de IA utilizadas como apoyo.  
 
 ## SCRIPTS  
-fastqc SRRSRR2584863.fastq
+Control calidad datos: fastqc SRRSRR2584863.fastq
  
-java -jar /usr/share/java/trimmomatic-0.39.jar SE -phred33 SRR2584863.fastq SRR2584863_trimmed.fastq HEADCROP:20 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36 2>&1 | tee trimming.log
+Corte en las cadenas: java -jar /usr/share/java/trimmomatic-0.39.jar SE -phred33 SRR2584863.fastq SRR2584863_trimmed.fastq HEADCROP:20 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36 2>&1 | tee trimming.log
  
-fastqc SRR2584863_trimmed.fastq
+Control calidad a cadena cortada: fastqc SRR2584863_trimmed.fastq
 
-spades.py --isolate -s SRR2584863_trimmed.fastq -o spades_output -t 2 -m 2
+Ensamblaje: spades.py --isolate -s SRR2584863_trimmed.fastq -o spades_output -t 2 -m 2
  
-seqkit stats scaffolds.fasta
+Obrtención de coting-scaffold: seqkit stats scaffolds.fasta
  
 bwa index scaffolds_fasta
  
