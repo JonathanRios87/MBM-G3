@@ -99,14 +99,13 @@ Integrar y organizar el informe.md en GitHub.
 ## SCRIPTS  
 Control calidad datos: fastqc SRR2584863.fastq
  
-Corte en las cadenas: java -jar /usr/share/java/trimmomatic-0.39.jar SE -phred33 SRR2584863.fastq SRR2584863_trimmed.fastq HEADCROP:20 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36 2>&1 | tee trimming.log
+Corte en las cadenas: trimmomatic-0.39.jar SE -phred33 SRR2584863.fastq SRR2584863_trimmed.fastq HEADCROP:20 LEADING:3 TRAILING:3 SLIDINGWINDOW:4:20 MINLEN:36 2>&1 | tee trimming.log
  
 Control calidad a cadena cortada: fastqc SRR2584863_trimmed.fastq
 
-Ensamblaje: spades.py --isolate -s SRR2584863_trimmed.fastq -o spades_output -t 2 -m 2
+Ensamblaje: spades -o . s SRR2584863_trimmed.fastq
  
-Obrtención de coting-scaffold: seqkit stats scaffolds.fasta
- 
+Obrtención de coting-scaffold: 
+Estadísticias: seqkit stats scaffolds.fasta
 bwa index scaffolds_fasta
- 
-Visualización: bwa mem ../scaffolds.fasta ../SRR2584863_trimmed.fastq -o bwaFile.sam
+bwa mem SRR2584863_trimmed.fastq -o bwaFile.sam
