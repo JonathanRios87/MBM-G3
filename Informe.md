@@ -14,11 +14,11 @@ El proyecto busca realizar la anotación estructural del genoma de *Escherichia 
 
 **1. Introducción**  
 
-La anotación de genomas bacterianos constituye una herramienta esencial en bioinformática, ya que permite identificar y organizar los elementos estructurales básicos de la secuencia genética, como genes codificantes, regiones reguladoras y ARN funcionales. *Escherichia coli*, una bacteria modelo ampliamente utilizada en estudios de microbiología y genética molecular, representa un organismo ideal para aplicar metodologías de ensamblaje y anotación genómica debido a la gran cantidad de información disponible en bases de datos públicas.
+La anotación de genomas bacterianos constituye una herramienta esencial en bioinformática, ya que permite identificar y organizar los elementos estructurales básicos de la secuencia genética, como genes codificantes, regiones reguladoras y ARN funcionales. *Escherichia coli*, una bacteria modelo ampliamente utilizada en estudios de microbiología y genética molecular, representa un organismo ideal para aplicar metodologías de ensamblaje y anotación genómica debido a la gran cantidad de información disponible en bases de datos públicas como NCBI.
 
 En este proyecto se propone realizar el ensamblaje y la anotación estructural del genoma de *E. coli* utilizando datos obtenidos desde NCBI-SRA, mediante el entorno bioinformático Galaxy, el cual facilita la ejecución de flujos de trabajo reproducibles para análisis genómicos. Asimismo, se emplea SPAdes para el ensamblaje del genoma y Prokka para la anotación automática de genes bacterianos.
 
-Posteriormente, las anotaciones obtenidas serán visualizadas en JBrowse, un navegador genómico interactivo que permite explorar de manera dinámica la organización del genoma y sus elementos funcionales. Este flujo de trabajo busca establecer un pipeline bioinformático reproducible, útil tanto en el ámbito académico como en investigaciones aplicadas, fortaleciendo la formación en análisis genómico y la interpretación de datos biológicos.
+Posteriormente, las anotaciones obtenidas serán visualizadas en JBrowse, un navegador genómico interactivo que permite explorar de manera dinámica la organización del genoma y sus elementos funcionales. Este flujo de trabajo busca establecer un pipeline bioinformático reproducible, útil tanto en el ámbito académico como en investigaciones aplicadas, fortaleciendo la formación en análisis genómico y la interpretación de la data biológica obtenida.
 
 **2. Metodologia (Workflow)**  
 
@@ -99,12 +99,12 @@ Todas las evidencias del proceso (capturas de pantalla, resultados intermedios y
 1 Buena calidad general de las lecturas (sin secuencias marcadas como de baja calidad).  
 2 Variación inicial en el contenido de bases (A, T, G, C) durante los primeros 10–15 pb, típica de la fase de arranque del secuenciador.  
 3 Ligera desviación en el contenido GC, pero dentro del rango esperado para *E. coli*  
-4 Presencia mínima de adaptadores, corregible con Trimmomatic.
+4 Presencia mínima de adaptadores, corregible posteriormente con Trimmomatic.
 
-Lecturas filtradas (Trimmomatic + FastQC post-trimming)
-Mejora notable en la calidad promedio por base.
+Se filtro las lecturas mediante un nuevo análisis de calidad con FastQC post-trimming), donde se observo una mejora notable en la lectura. Analizando las graficas obtenidas en los programas utilizados se observa que la mayoría de las posiciones se encuentran en la zona verde (Q > 30), indicando alta precisión en las llamadas de bases.  
 
-La mayoría de las posiciones se encuentran en la zona verde (Q > 30), indicando alta precisión en las llamadas de bases.  
+Arbol filogenético 
+![Arbol filogenético](images/)
 
 **Distribución de contenido GC**
 Promedio: ~50% GC.  
