@@ -50,6 +50,36 @@ Illumina HiSeq 2500
 <img width="1060" height="582" alt="Captura de pantalla 2026-05-14 102002" src="https://github.com/user-attachments/assets/dc29a882-ecc1-4bc4-b08c-0ea2dbc84fa3" />
 <img width="1261" height="628" alt="Captura de pantalla 2026-05-14 102013" src="https://github.com/user-attachments/assets/911b5ba4-465a-4c50-ba97-d6347491692d" />
 
+
+
+
+
+
+
+##  Comparacion Galaxy vs Lineas de comando 
+Comparación: Galaxy vs. Línea de Comandos
+A continuación, se presenta una comparación basada en las herramientas y scripts documentados en tu proyecto:
+
+	
+Caracteristicas    /    Ejecución en Galaxy        Ejecuacion en lineas de comando
+
+Interfaz          / Gráfica y amigable (Web)     Basada en texto (Terminal); sintaxis y comandos
+
+Curva de          /    Baja                      Media/Alta; es necesario aprender comandos
+Aprendizaje
+
+Reproducibilidad  /Alta a través de "Histories"     Alta mediante Scripts
+
+Visualización     /Visualiza resultados          Requiere descargar los archivos o configurar                       directamente JBrowse                  servidores locales
+
+Gestión de       / El servidor procesa             depende de la capacidad de la comptadora o 
+ Recursos         y almacena datos                       servidor local 
+
+
+
+                  
+	
+
 ## Contribucion individual
 
 Maximo Pinduisaca — Búsqueda de secuencias y planteamiento biológico
