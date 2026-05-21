@@ -61,19 +61,19 @@ Comparación: Galaxy vs. Línea de Comandos
 A continuación, se presenta una comparación basada en las herramientas y scripts documentados en tu proyecto:
 
 	
-Caracteristicas    /    Ejecución en Galaxy        Ejecuacion en lineas de comando
+Caracteristicas    /    Ejecución en Galaxy     //  Ejecución en lineas de comando
 
-Interfaz          / Gráfica y amigable (Web)     Basada en texto (Terminal); sintaxis y comandos
+Interfaz          / Gráfica y amigable (Web)   //Basada en texto (Terminal); sintaxis y comandos
 
-Curva de          /    Baja                      Media/Alta; es necesario aprender comandos
+Curva de          /    Baja                    //Media/Alta; es necesario aprender comandos
 Aprendizaje
 
-Reproducibilidad  /Alta a través de "Histories"     Alta mediante Scripts
+Reproducibilidad  /Alta a través de "Histories"  //Alta mediante Scripts
 
-Visualización     /Visualiza resultados          Requiere descargar los archivos o configurar                       directamente JBrowse                  servidores locales
+Visualización     /Visualiza resultados         //Requiere descargar los archivos o configurar                     / directamente JBrowse        //          servidores locales
 
-Gestión de       / El servidor procesa             depende de la capacidad de la comptadora o 
- Recursos         y almacena datos                       servidor local 
+Gestión de       / El servidor procesa          // Depende de la capacidad de la comptadora o 
+ Recursos        / y almacena datos             //        servidor local 
 
 
 
