@@ -127,7 +127,8 @@ Integrar y organizar el informe.md en GitHub.
 * Explicar el uso de herramientas de IA utilizadas como apoyo.  
 
 ## SCRIPTS  
-Control calidad datos: 
+
+```Control calidad datos: 
 fastqc SRR2584863.fastq
  
 Corte en las cadenas: 
